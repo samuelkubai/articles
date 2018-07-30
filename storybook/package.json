@@ -1,0 +1,22 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "This is the code base for the storybook article.",
+  "main": "index.js",
+  "repository": "https://github.com/samuelkubai/articles/storybook",
+  "author": "Samuel Kubai Kamau",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "scripts": {
+    "stories" : "./docker.sh storybook",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  }
+}
