@@ -1,0 +1,13 @@
+@import "../../node_modules/material-design-lite/material.css";
+
+table {
+  white-space: normal !important;
+
+  td {
+    vertical-align: top !important;
+  }
+}
+
+.table-header {
+  text-align: center !important;
+}
